@@ -1,0 +1,56 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [
+			1,
+			20,
+			0
+		],
+		"uuid": "1552d9d1-153c-4b69-8854-03980ec5974e",
+		"version": [
+			6,
+			54,
+			8
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "3fb34314-5b3a-4771-9b74-5d4ab4dd92b9",
+			"version": [
+				1,
+				1,
+				9
+			]
+		},
+		{
+			"language": "javascript",
+			"type": "script",
+			"uuid": "dc982538-188c-4b27-b181-30404c885ae8",
+			"version": [
+				1,
+				1,
+				9
+			],
+			"entry": "scripts/chat.js"
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.2.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "2.1.0-beta"
+		}
+	],
+	"metadata": {
+		"url": "https://github.com/aljabarprl",
+		"author": [
+			"Pasa ltd."
+		]
+	}
+}
